@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<header>
+    <h1 id="heading">Oxford University</h1>
+</header>
+
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+<footer>
+    <p>First Paragraph in the footer</p>
+    <p>Second Paragraph in the footer</p>
+</footer>
+
+<script>
+    let paragraphs = document.querySelectorAll("footer p");
+
+    for (let i = 0; i < paragraphs.length; i++) {
+        console.log(paragraphs[i].textContent);
+    }
+</script>
+
+</body>
+
+</html>
