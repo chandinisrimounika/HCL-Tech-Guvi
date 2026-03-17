@@ -30,3 +30,20 @@ Encapsulation
 Threading
 Multithreading
 Concurrency
+```
+Day 4 (11-03-2026) 
+```
+Install Git
+Git operations (git init, git add, git commit, git status, git log)
+Create GitHub repo
+push project to GitHub
+
+```
+Day 5 (12-03-2026)
+```
+Heap vs stack
+Garbage collection
+Thread lifecycle
+Synchronization
+Thread issues & deadlocks
+Executor framework
